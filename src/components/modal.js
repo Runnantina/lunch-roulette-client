@@ -24,7 +24,7 @@ export default class InputModal extends Component {
       >
         <Header icon='browser' content='Add a review' />
         <Modal.Content>
-          <h3>The add review form will go here!</h3>
+          <h3>Reviews feature coming soon!</h3>
         </Modal.Content>
         <Modal.Actions>
           <Button color='green' onClick={this.handleClose} inverted>

@@ -13,7 +13,6 @@ import AuthCode from '../components/authCode'
 import FilterForm from '../components/filterForm'
 import Header from '../components/header'
 
-
 export default class App extends Component {
   constructor(){
     super()
@@ -101,6 +100,4 @@ export default class App extends Component {
       )
     }
   }
-
-
 }

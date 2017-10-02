@@ -41,10 +41,9 @@ class FilterForm extends Component {
             <Form.Select field={'bodily_impact'} onChange={this.handleChange} label='Bodily Impact' options={bodilyImpactOptions} />
           </Form.Group>
 
-          <Form.Button color="pink" fluid size="massive">Find me some grub!</Form.Button>
+          <Form.Button color="purple" fluid size="massive">Find me some grub!</Form.Button>
         </Form>
         <Divider/>
-        <InputModal/>
 
       </Container>
     )

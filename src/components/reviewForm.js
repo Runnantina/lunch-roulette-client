@@ -44,7 +44,7 @@ class ReviewForm extends Component {
   render() {
 
     return (
-      <Container>
+      <Container className="add-review-form">
         <Form onSubmit={this.handleSubmit}>
 
             <Form.Select field={'place_id'} onChange={this.handleChange} label='Restaurants' options={this.getPlaces()} placeholder='Restaurant' />
@@ -54,7 +54,7 @@ class ReviewForm extends Component {
             <Form.Select field={'recommended_for'} onChange={this.handleChange} label='Recommended For' options={recommendedForOptions} />
             <Form.Select field={'bodily_impact'} onChange={this.handleChange} label='Bodily Impact' options={bodilyImpactOptions} />
 
-          <Form.Button>Submit</Form.Button>
+          <Form.Button color="red">Submit</Form.Button>
         </Form>
       </Container>
     )

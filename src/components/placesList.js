@@ -12,8 +12,6 @@ function PlacesList(props){
         <Container>
           <MainCard place={props.places[0]}/>
         </Container>
-
-
       </Container>
     )
 

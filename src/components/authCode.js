@@ -27,10 +27,10 @@ export default class AuthCode extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="auth-form">
         <Form onSubmit={this.handleSubmit}>
           <Form.Input onChange={this.handleChange} placeholder='joe.doe (@flatironschool not required)' label={'Enter Your Flatiron Email'}  />
-          <Form.Button>Get Authorization Code</Form.Button>
+          <Form.Button color='green'>Get Authorization Code</Form.Button>
         </Form>
       </Container>
     )
