@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Form, Container, Input, Divider } from 'semantic-ui-react'
+import { Form, Container, Divider } from 'semantic-ui-react'
 import InputModal from './modal.js'
 
 const costOptions = ['All','Practically Free', 'OK', 'OTT'].map(c => ({key: c, text: c, value: c}))

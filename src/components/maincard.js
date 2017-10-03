@@ -14,17 +14,17 @@ const MainCard = (props) => (
         </span>
       </Card.Meta>
       <Card.Description className="card-d">
-      <h3>
+      <h5>
         Rating: <Rating defaultRating={props.place.avg_star_rating} maxRating={5} disabled size="massive" />
-      </h3>
-        <h3>
+      </h5>
+        <h5>
           <Icon name='food' />
           Good for: {props.place.mode_recommended_for[0]}
-        </h3>
-        <h3>
+        </h5>
+        <h5>
           <Icon name='help circle' />
           Bodily Impact: {props.place.mode_bodily_impact[0]}
-        </h3>
+        </h5>
       </Card.Description>
     </Card.Content>
 

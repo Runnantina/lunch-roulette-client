@@ -14,6 +14,8 @@ body{
 
 .add-review-form {
   padding-bottom: 60px;
+  padding-left: 90px;
+  padding-right: 90px
 }
 
 .auth-form {

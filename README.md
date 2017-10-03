@@ -9,9 +9,10 @@ When you don't want to decide where to eat, use Lunch Roulette for suggestions. 
 
 Check out back end code [here](https://github.com/Runnantina/lunch-roulette-api).
 
+![demo](http://g.recordit.co/vCUGvSUcIx.gif)
 
 ----
-##Technology
+## Technology
 
 - ReactJS
 - Ruby on Rails
